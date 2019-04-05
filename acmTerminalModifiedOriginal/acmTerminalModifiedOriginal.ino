@@ -77,12 +77,8 @@ void loop()
 
         int select = Serial.read();
 
-//        if (select == 48) sendToRight();
-//        if (select == 49) sendToLeft();
-
-        sendToRight();
-
-        for 
+        if (select == 48) sendToRight();
+        if (select == 49) sendToLeft();
 
         Serial.println(select);
 
