@@ -7,13 +7,16 @@ This project is a Arduino based code, that uses a HostShield to controll a 3D pr
 
 # Here are some examples:
 ```
-Move the printer in the X axis: G0 10X
+Move the printer in the X axis for the left: A
+```
+```
+Move the printer in the X axis for the right: D
 ```
 
 ```
-Move the printer in the Y axis: G0 15Y 
+Move the printer in the Y axis to move foward: W
 ```
 
 ```
-Move the printer in the X and Y axis: G0 10X 35Y
+Move the printer in the Y axis to move foward: S
 ```
